@@ -153,7 +153,7 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
     ```sh
     sudo apt-get install awstats
     ```
-![Texto alternativo](img9.png)
+![img9](img9.png)
 
 2. Configura AWStats:
     ```sh
@@ -164,8 +164,8 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
     sudo /usr/lib/cgi-bin/awstats.pl -config=centro.intranet -update
     ```
 
-![Texto alternativo](img10.png)
-![Texto alternativo](img11.png)
+![img10](img10.png)
+![img11](img11.png)
 
 ### 9. Instalación de un Segundo Servidor (Nginx) y Configuración
 1. Instala Nginx:
