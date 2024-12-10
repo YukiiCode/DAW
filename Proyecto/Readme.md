@@ -70,7 +70,7 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
     </VirtualHost>
     ```
     ![Conf](img/img6.png)
-    
+
 4. Habilita el sitio y reinicia Apache:
     ```sh
     sudo a2ensite centro.intranet.conf
@@ -82,6 +82,8 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
     ```sh
     sudo apt-get install libapache2-mod-wsgi-py3
     ```
+    ![Conf](img/img7.png)
+
 2. Configura Apache para la aplicación Python:
     ```sh
     sudo nano /etc/apache2/sites-available/departamentos.centro.intranet.conf
@@ -120,6 +122,7 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
         start_response(status, response_headers)
         return [output]
     ```
+    ![Conf](img/img8.png)
 
 ### 7. Protección de la Aplicación Python mediante Autenticación
 1. Crea un archivo `.htpasswd` para la autenticación:
