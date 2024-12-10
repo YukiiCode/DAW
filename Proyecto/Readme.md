@@ -26,6 +26,8 @@
     ```sh
     sudo apt-get install php libapache2-mod-php php-mysql
     ```
+    ![Instalar PHP](img/img2.png)
+
 2. Reinicia Apache para aplicar los cambios:
     ```sh
     sudo systemctl restart apache2
