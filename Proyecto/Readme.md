@@ -69,6 +69,8 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
         CustomLog ${APACHE_LOG_DIR}/access.log combined
     </VirtualHost>
     ```
+    ![Conf](img/img6.png)
+    
 4. Habilita el sitio y reinicia Apache:
     ```sh
     sudo a2ensite centro.intranet.conf
