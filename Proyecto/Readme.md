@@ -2,6 +2,9 @@
 
 ## Instalación y Configuración de Servidores Web
 
+<!-- Breve resumen del proyecto -->
+Este proyecto tiene como objetivo la instalación y configuración de un servidor web interno para un instituto. Se utilizarán dos dominios mediante el archivo hosts: `centro.intranet` y `departamentos.centro.intranet`. El primero servirá contenido mediante WordPress y el segundo una aplicación en Python. Además, se activarán los módulos necesarios para ejecutar PHP y acceder a MySQL, se instalará y configurará WordPress, se activará el módulo WSGI para permitir la ejecución de aplicaciones Python, y se protegerá el acceso a la aplicación Python mediante autenticación. También se instalará y configurará AWStats para el análisis de estadísticas web, y se configurará un segundo servidor (Nginx) bajo el dominio `servidor2.centro.intranet` para servir en el puerto 8080 y ejecutar phpMyAdmin.
+
 ### 1. Instalación del Servidor Web Apache
 1. Abre una terminal y ejecuta el siguiente comando para instalar Apache:
     ```sh
@@ -32,6 +35,7 @@
     ```sh
     sudo systemctl restart apache2
     ```
+    ![Reiniciar Apache](img/img3.png)
 
 ### 4. Instalación y Configuración de WordPress
 1. Descarga y descomprime WordPress:
@@ -40,6 +44,9 @@
     tar -xzvf latest.tar.gz
     sudo mv wordpress /var/www/html/centro.intranet
     ```
+    ![Wordpress](img/img4.png)
+    ![Confg](img/img5.png)
+
 2. Configura los permisos:
     ```sh
     sudo chown -R www-data:www-data /var/www/html/centro.intranet
