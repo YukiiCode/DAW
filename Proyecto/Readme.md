@@ -165,6 +165,7 @@ Este proyecto tiene como objetivo la instalación y configuración de un servido
     ```
 
 ![img10](img10.png)
+
 ![img11](img11.png)
 
 ### 9. Instalación de un Segundo Servidor (Nginx) y Configuración
