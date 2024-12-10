@@ -19,6 +19,7 @@
     127.0.0.1 centro.intranet
     127.0.0.1 departamentos.centro.intranet
     ```
+    ![Edición Archivo hosts](img/image.png)
 
 ### 3. Activación de Módulos Necesarios para PHP y MySQL
 1. Instala PHP y los módulos necesarios:
