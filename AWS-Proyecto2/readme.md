@@ -4,3 +4,6 @@
 
 ### Pasos a seguir
 
+1. Entramos en el curso asignado de AWS y entramos en la consola para crear las instancias necesarias
+2. Primero creamos la vpc
+   
