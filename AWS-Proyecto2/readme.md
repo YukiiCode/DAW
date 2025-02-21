@@ -11,3 +11,7 @@ Configuracion empleada:
 ![image](https://github.com/user-attachments/assets/40dbb658-5035-41d4-9b7a-a47eadfe8623)
 
 Vista previa de las redes: ![image](https://github.com/user-attachments/assets/f2dfedd8-625c-4220-90c7-bfa4fa49cfe5)
+
+A continuación pulsamos en Crear VPC y se crearan automaticamente los elementos configurados:
+![image](https://github.com/user-attachments/assets/c06af47c-bddf-45f9-a0c0-eb99e9845076)
+
