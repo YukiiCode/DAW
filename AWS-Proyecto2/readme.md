@@ -74,3 +74,21 @@ Configuración adicional:
 ![image](https://github.com/user-attachments/assets/3f3a328e-66a8-4a68-8f88-6a0f7e5443b5)
 
 ![image](https://github.com/user-attachments/assets/467cc07a-8025-4fa9-a907-ce668fd00dbd)
+
+Conectamos la bbdd y la ec2
+![image](https://github.com/user-attachments/assets/36536489-85fb-4576-921e-d96c6f5af0bb)
+
+6. Creacion EFS
+![image](https://github.com/user-attachments/assets/6228081b-d03d-4a8b-a500-13ff6d04dca8)
+
+![image](https://github.com/user-attachments/assets/f5e89c67-c6eb-48c9-919e-d9fc0a18abc5)
+
+![image](https://github.com/user-attachments/assets/3df84505-52f3-41ba-9f86-d896ae27ce36)
+
+ - Creamos el directorio efs
+```bash
+sudo mkdir -p /efs
+```
+
+ - 
+
