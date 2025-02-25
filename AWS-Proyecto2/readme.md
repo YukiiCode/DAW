@@ -90,5 +90,41 @@ Conectamos la bbdd y la ec2
 sudo mkdir -p /efs
 ```
 
- - 
+ - Montamos el sistema efs en la maquina ec2
+![image](https://github.com/user-attachments/assets/132aa1e1-fd1c-4054-97f8-90347d08394c)
+
+7. Instalacion de Wordpress
+ - Usamos el comando para instalar wordpress
+```bash
+wget http://wordpress.org/latest.tar.gz
+```
+
+![image](https://github.com/user-attachments/assets/0a8a9427-1f5f-4106-aba4-2a2830bd39b4)
+
+7.1 Creación de usuario y contraseña para wordpress
+
+ - Instalamos mysql
+```bash
+apt install default-mysql-client
+```
+
+![image](https://github.com/user-attachments/assets/569cff42-0bab-4392-a24e-be88ce64015f)
+
+ - Nos conectamos a la bbdd creada anteriormente
+
+![image](https://github.com/user-attachments/assets/c7e2bd8c-1610-4084-afae-4eb0874f58fa)
+
+ - Creamos Base de datos, usuario y contraseña:
+
+```bash
+mysql -u admin -h nombre-dns-rds-wordpress -p 
+```
+
+```sql
+CREATE DATABASE wordpress; 
+CREATE USER 'wordpress_user'@'%' IDENTIFIED BY 'password123'; 
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress_user'@'%'; 
+FLUSH PRIVILEGES;
+```
+
 
