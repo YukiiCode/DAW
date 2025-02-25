@@ -127,4 +127,9 @@ GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress_user'@'%';
 FLUSH PRIVILEGES;
 ```
 
+ - Accedemos a la instancia desde la ip publica para hacer la instalacion
+![image](https://github.com/user-attachments/assets/6f049c69-03cf-4231-9618-aa4050d11990)
+
+Rellenamos los datos y ya tendriamos lista la instalacion de wordpress
+
 
