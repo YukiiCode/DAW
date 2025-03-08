@@ -78,15 +78,38 @@ print("¡Hola desde Docker!")
 ### Construye el contenedor
 
 ```bash
-docker build -t mi-aplicacion:latest
+docker build -t mi-aplicacion:latest .
 ```
 
 Explicación:
-
 - t mi-aplicacion:latest : Asigna un nombre (mi-aplicacion) y una etiqueta (latest) a la imagen.
 - . : Indica que el Dockerfile está en el directorio actual.
 
+![image](https://github.com/user-attachments/assets/3028d692-101f-439c-aa71-4bce4f0f066c)
+
+
 ### Ejecútalo
+- Para ejecutarlo aqui que utilizar el siguiente comando
+```bash
+docker run mi-aplicacion:latest
+```
+
+![image](https://github.com/user-attachments/assets/c9c69bfb-d3ef-47b7-9563-88528655a05a)
+
 ### Create una cuenta en hub.docker.com
+
+- Ir a hub.docker.com y haz clic en Sign Up 
+
 ### Publícalo
+
+- Para publicarlo tenemos que usar el siguente comando:
+```bash
+docker login
+```
+- Nos pedirá el usuario y la contraseña
+![image](https://github.com/user-attachments/assets/8cdf3596-8c29-48bf-b27f-eaef6ff01d2e)
+
+- Usamos este comando y se publicará
+![image](https://github.com/user-attachments/assets/a10d1072-d413-4827-b6c2-a7c829fc8ac0)
+
 
