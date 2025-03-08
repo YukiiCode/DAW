@@ -33,4 +33,3 @@ docker ps -a
 
 ![image](https://github.com/user-attachments/assets/4808aca0-1b9e-4055-bb4a-13c39fd7595f)
 
-![image](https://github.com/user-attachments/assets/0219f536-331e-4fbc-86c0-c680104d65bd)
