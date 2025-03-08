@@ -109,7 +109,8 @@ docker login
 - Nos pedirá el usuario y la contraseña
 ![image](https://github.com/user-attachments/assets/8cdf3596-8c29-48bf-b27f-eaef6ff01d2e)
 
-- Usamos este comando y se publicará
+- Usamos este comando (el primer comando es para ponerle una etiqueta) y se publicará
 ![image](https://github.com/user-attachments/assets/a10d1072-d413-4827-b6c2-a7c829fc8ac0)
+![image](https://github.com/user-attachments/assets/fd6f07cc-edf9-48a1-90f1-f4ebff463925)
 
 
