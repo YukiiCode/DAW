@@ -30,6 +30,19 @@ docker ps -a
 ```
 ![image](https://github.com/user-attachments/assets/00ec7e93-09ee-4063-8787-aa67a574e2cd)
 
+- Para el contenedor "myhello1", "myhello2”
 
 ![image](https://github.com/user-attachments/assets/4808aca0-1b9e-4055-bb4a-13c39fd7595f)
 
+- Borramos "myhello1"
+```bash
+docker rm myhello1
+```
+
+- Contenedores actuales
+![image](https://github.com/user-attachments/assets/9c75e45a-3b0b-4c08-b51b-b28824dd52b9)
+
+
+- Borra todos los contenedores
+
+![image](https://github.com/user-attachments/assets/7490e83f-dfb7-4f9d-a0ed-668b4bfc250e)
